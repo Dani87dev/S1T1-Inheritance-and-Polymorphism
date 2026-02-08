@@ -1,21 +1,19 @@
 package n1exercice1;
 
-public class PercussionInstrument extends Instrument{
+public class PercussionInstrument extends Instrument {
 
-	static {
-		System.out.println("Percussion class is loaded");
-	}
-	
-	public PercussionInstrument(String name, int price) {
-		super(name, price);
-	}
-	
-	
-	//métode sobreescrit
+    static {
+        System.out.println("Percussion class is loaded");
+    }
+
+    public PercussionInstrument(String name, int price) {
+        super(name, price);
+    }
+
     @Override
-	public void play() {
-		System.out.println("A percussion instrument is playing");
-	}
-	
-	
+    public void play() {
+        System.out.println("A percussion instrument is playing");
+    }
+
+
 }
