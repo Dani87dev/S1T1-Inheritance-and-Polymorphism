@@ -3,7 +3,7 @@
 This unit explores **Inheritance** and **Polymorphism** to achieve code reusability and dynamic behavior.  
 The focus is on building class hierarchies, understanding `static` and `final` modifiers, and implementing interfaces for multiple behaviors.
 
----
+
 
 ## 📌 Exercise 1 · Level 1 — Musical Instruments (Polymorphism)
 
@@ -14,7 +14,6 @@ The focus is on building class hierarchies, understanding `static` and `final` m
 - Implement a polymorphic `play()` method with a specific message for each type.
 - **Class Loading**: prove that classes load only once using a static block triggered by the first instance or a static member access.
 
----
 
 ## 📌 Exercise 2 · Level 1 — Car Class (Static & Final)
 
@@ -29,16 +28,15 @@ The focus is on building class hierarchies, understanding `static` and `final` m
 
 ### Questions & Answers
 
-**Which of these attributes can be initialized from the constructor?**  
-Only `POWER` can be initialized from the constructor because it is a non-static final attribute. Each `Car` instance sets its own value when it is created.
+➤ **Which of these attributes can be initialized from the constructor?** <br>
+    - Only `POWER` can be initialized from the constructor because it is a non-static final attribute. Each `Car` instance sets its own value when it is created.
 
-**Which attribute can never be modified?**  
-`BRAND` can never be modified because it is declared as `static final`. Its value is fixed at declaration time and shared by the whole class.
+➤ **Which attribute can never be modified?**<br>
+    - `BRAND` can never be modified because it is declared as `static final`. Its value is fixed at declaration time and shared by the whole class.
 
-**Which attribute affects all instances of the class?**  
-`model` affects all instances because it is static. Any change to `model` is shared across every `Car` object.
+➤ **Which attribute affects all instances of the class?**  <br>
+    - `model` affects all instances because it is static. Any change to `model` is shared across every `Car` object.
 
----
 
 ## 📌 Exercise 1 · Level 2 — Smartphone (Interfaces)
 
